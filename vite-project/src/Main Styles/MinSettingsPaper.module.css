@@ -1,0 +1,70 @@
+.GridPaper {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* grid-template-rows: 30% 70%; */
+  width: 100%;
+  height: 10.5vh;
+  grid-template-areas: "per cent" "per cent";
+  /* background: green; */
+}
+.GridPaper-I {
+  grid-area: per;
+  background: red;
+  border-radius: 8px;
+}
+.GridPaper-II {
+  grid-area: cent;
+  /* background: yellow; */
+}
+.Paper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  place-items: center;
+  margin: 30px;
+}
+.Paper-Icon {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+  text-align: center;
+}
+.Paper-divider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  /* justify-content: space-between; */
+}
+/* ======================================================= */
+.GridBtn {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  /* grid-template-rows: 30% 70%; */
+  width: 800%;
+  height: 19.8vh;
+  grid-template-areas: "per cent" "per cent";
+  /* background: green; */
+}
+.GridPaper-Btn {
+  grid-area: per;
+  background: red;
+  border-radius: 8px;
+}
+.GridPaper-IIBtn {
+  grid-area: cent;
+  /* background: yellow; */
+  border-radius: 6px;
+}
+.Paper-IconBtn {
+  display: flex;
+  justify-content: center;
+  margin: 40px 0px;
+  text-align: center;
+}
+.PaperBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  place-items: center;
+  margin: 30px;
+}

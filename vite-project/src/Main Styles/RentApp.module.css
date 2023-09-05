@@ -1,0 +1,41 @@
+.List1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.List1-I {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.List {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Created {
+  display: flex;
+}
+.Locate {
+  display: flex;
+  flex-direction: column;
+}
+.Locat {
+  display: flex;
+  align-items: center;
+}
+.Date {
+  display: flex;
+}
+.color-Red {
+  color: red;
+}
+.color-green {
+  color: green;
+}
+.color-black {
+  color: black;
+}
+.icon {
+  width: 10px;
+}

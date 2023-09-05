@@ -1,0 +1,105 @@
+:root {
+  --scrollbar-width: 8px;
+}
+
+.Cards-Grid::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+.Cards-Grid::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.Cards-Grid::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.Main-Grid {
+  display: grid;
+  grid-template-rows: 10% 10% 80%;
+  grid-template-areas: "per" "cent" "age";
+  width: 100%;
+  height: 100vh;
+}
+
+.Search-Grid {
+  grid-area: per;
+  background: red;
+  /* display: grid; */
+  /* grid-template-rows: 100%;
+  grid-template-areas: "per cent";
+  height: 9rem; */
+}
+
+.Welcome-Grid {
+  grid-area: cent;
+  background: yellow;
+}
+
+.Cards-Grid {
+  grid-area: age;
+  background: greenyellow;
+  overflow-y: scroll;
+  scrollbar-gutter: stable both-edges;
+}
+.customize {
+  position: relative;
+  left: 2%;
+}
+/* .customize-Btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+.input {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -5.5%;
+  position: relative;
+  left: -5%;
+}
+.welcom-back {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+}
+.welcom-back li {
+  margin-top: 2px;
+}
+.Welcome-color {
+  font-size: 30px;
+}
+.BoxSx {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.BoxSxI {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+.Cards div {
+  padding: 5px;
+}
+.sx {
+  cursor: text;
+}
+.sx:hover {
+  background: none;
+}
+.custom-vertical-line::before {
+  content: "";
+  display: block;
+  width: 4px;
+  background-color: red;
+  height: 100%;
+  position: absolute;
+  left: 7px;
+  top: 0;
+}
+.custom {
+  margin: 0 20px;
+}

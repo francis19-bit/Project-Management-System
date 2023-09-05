@@ -1,0 +1,90 @@
+.List1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.List1-I {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.List {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Created {
+  display: flex;
+}
+.Locate {
+  display: flex;
+  flex-direction: column;
+}
+.Locat {
+  display: flex;
+  align-items: center;
+}
+.Date {
+  display: flex;
+}
+.color-Red {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.color-Pin {
+  color: green;
+  display: flex;
+  align-items: center;
+}
+.color-green {
+  color: green;
+}
+.color-black {
+  color: rgb(126, 126, 114);
+  display: flex;
+}
+.icon {
+  width: 5px;
+}
+.pages {
+  text-decoration: none;
+}
+/* ============================================================== */
+.Tasmedium {
+  display: flex;
+  gap: 2rem;
+}
+.zero {
+  display: flex;
+  background-color: aquamarine;
+  border-radius: 10px;
+  align-items: center;
+  font-weight: 800;
+}
+.Navi {
+  color: #fff;
+}
+.users {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.Date {
+  display: flex;
+  align-items: center;
+}
+.all-flex {
+  display: flex;
+  align-items: center;
+}
+.color- {
+  color: greenyellow;
+  border: 6px;
+  border-radius: 5px solid brown;
+  background: rgb(44, 44, 36);
+}
+.Monthly {
+  display: flex;
+  align-items: center;
+}

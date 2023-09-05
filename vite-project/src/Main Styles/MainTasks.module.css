@@ -1,0 +1,180 @@
+:root {
+  --scrollbar-width: 8px;
+}
+
+.Cards-Grid::-webkit-scrollbar {
+  width: var(--scrollbar-width);
+}
+
+.Cards-Grid::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.Cards-Grid::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+.Main-Grid {
+  /* =============**Main-Grid**==================== */
+  display: grid;
+  grid-template-rows: 10% 40% 50%;
+  grid-template-areas: "per" "cent" "age";
+  width: 100%;
+  height: 100vh;
+} /* =====================End of Main-Grid======== */
+
+.Search-Grid {
+  /* =============**Search-Grid**==================== */
+  grid-area: per;
+  background: red;
+} /* =====================End of Main-Grid======== */
+
+.Properties-Grid {
+  /* =============**properties-Grid**==================== */
+
+  grid-area: cent;
+  background: yellow;
+  display: grid;
+  grid-template-rows: 30% 20% 60%;
+  grid-template-areas: "per" "cent" "age";
+  width: 100%;
+} /* =====================End of properties-Grid======== */
+.Properties-DividerI {
+  grid-area: per;
+  background: aqua;
+}
+.Properties-DividerII {
+  grid-area: cent;
+  background: brown;
+}
+.Properties-DividerIII {
+  grid-area: age;
+  background: black;
+  /* visibility: hidden;  */
+  display: grid;
+  grid-template-rows: 100%;
+  width: 100%;
+  grid-template-areas: "per";
+}
+/* .Properties-Divid-I {
+  grid-area: cent;
+  background: yellow;
+} */
+.Properties-Divid-II {
+  grid-area: per;
+  background: red;
+}
+.Cards-Grid {
+  /* =============**Welcom-Grid**==================== */
+
+  grid-area: age;
+  background: greenyellow;
+  overflow-y: scroll;
+  scrollbar-gutter: stable both-edges;
+} /* =====================End of Cards-Grid======== */
+.Properties {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  /* align-items: center; */
+}
+.Properties-Ul {
+  display: flex;
+  justify-content: space-between;
+}
+.Properties-list {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2%;
+  position: relative;
+  /* background: #888; */
+  /* ============= */
+}
+.Properties-list li {
+  height: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.8s ease-in-out 6ms;
+  user-select: none;
+}
+.Properties-list li:hover {
+  transition: all 0.9s ease-in-out 4ms;
+  background: #080808;
+  color: #fff;
+  box-shadow: 0px 0px 20px -20px;
+}
+.Properties-list li:active {
+  transform: scale(0.95);
+}
+.Properties-Tessa {
+  display: flex;
+  flex-direction: column;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+}
+
+.search input[type="text"] {
+  width: 200px;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.search button[type="submit"] {
+  background-color: #4e99e9;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  /* padding: 10px 20px; */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: 0.9s ease;
+}
+
+.search button[type="submit"]:hover {
+  transform: scale(1.1);
+  color: rgb(255, 255, 255);
+  background-color: blue;
+}
+.Properties-Search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px;
+}
+.inputI {
+  width: 100%;
+  border: 2px solid rgb(165, 127, 127);
+  height: 5vh;
+  border-radius: 10px;
+}
+.input {
+  /* color: #8707ff; */
+  border: 2px solid rgb(165, 127, 127);
+  border-radius: 10px;
+  padding: 10px 25px;
+  background: transparent;
+  max-width: 190px;
+}
+.input::placeholder {
+  color: #fff;
+}
+.Properties-input-ul {
+  display: flex;
+}
+/* =============================================== */
+.Headen {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

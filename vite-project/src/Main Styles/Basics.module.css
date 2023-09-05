@@ -1,0 +1,32 @@
+.Tenant {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 15px;
+  justify-content: space-between;
+}
+.PName {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
+.Amount {
+  display: flex;
+  align-items: center;
+}
+.User {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: -50%; */
+}
+
+.Time-ul {
+  display: flex;
+  align-items: center;
+}
+.In-progress {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+}

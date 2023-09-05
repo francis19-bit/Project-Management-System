@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+  list-style: none;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+}
+.Master-Grid {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-template-areas: "per cent" "per cent";
+  background: brown;
+  width: 100%;
+  height: 100vh;
+}
+.Grid-dividerI {
+  grid-area: per;
+  background: blue;
+}
+.Grid-dividerII {
+  grid-area: cent;
+  background: rgb(143, 131, 110);
+}
+
+.StatusBar {
+  width: 100%;
+  height: 6%;
+  background-color: red;
+}

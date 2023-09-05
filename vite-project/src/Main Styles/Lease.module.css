@@ -1,0 +1,52 @@
+.List1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.List1-I {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.List {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Created {
+  display: flex;
+}
+.Locate {
+  display: flex;
+  flex-direction: column;
+}
+.Locat {
+  display: flex;
+  align-items: center;
+}
+.Date {
+  display: flex;
+}
+.color-Red {
+  color: red;
+  display: flex;
+  align-items: center;
+}
+.color-Pin {
+  color: green;
+  display: flex;
+  align-items: center;
+}
+.color-green {
+  color: green;
+}
+.color-black {
+  color: rgb(126, 126, 114);
+  display: flex;
+}
+.icon {
+  width: 5px;
+}
+.pages {
+  text-decoration: none;
+}
