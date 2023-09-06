@@ -1,26 +1,26 @@
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import Home from "./Components/Home";
-import RentPage from "./Components/RentPage";
-import CommunicationPage from "./Components/CommunicationPage";
-import Leasingpage from "./Components/Leasingpage";
-import PeoplePage from "./Components/PeoplePage";
-import AccountingPage from "./Components/AccountingPage";
-import Properties from "./Compo2/Properties";
-import Tasks from "./Compo3/Tasks";
-import RentalApplication from "./Compo3/RentalApplication";
-import Tenats from "./Compo3/Tenants";
-import Leases from "./Compo3/Leases";
-import Units from "./Compo3/Units";
-import Reports from "./Compo3/Reports";
-import LeaseBalancePage from "./Lease Balance Page/LeaseBalancePage";
-import Settings from "./Compo3/Settings";
-import TaskPage from "./Components/TaskPage";
-import AllTasks from "./Compo4/AllTasks";
-import ChartofAccounting from "./Accounting/ChartOfAccounting";
-import ActiveLeases from "./Active Leases/ActiveLeases";
-import Rent from "./Compo3/Rent";
-import Property2 from "./Compo2/Property2";
+import Home from "./ROUTING/MAIN SIDEBAR ROUTING/Home";
+import RentPage from "./ROUTING/SIDEBAR ROUTING/RentPage";
+import CommunicationPage from "./ROUTING/SIDEBAR ROUTING/CommunicationPage";
+import Leasingpage from "./ROUTING/SIDEBAR ROUTING/Leasingpage";
+import PeoplePage from "./ROUTING/SIDEBAR ROUTING/PeoplePage";
+import AccountingPage from "./ROUTING/SIDEBAR ROUTING/AccountingPage";
+import Properties from "./ROUTING/MAIN SIDEBAR ROUTING/Properties";
+import Tasks from "./ROUTING/MAIN SIDEBAR ROUTING/Tasks";
+import RentalApplication from "./ROUTING/MAIN SIDEBAR ROUTING/RentalApplication";
+import Tenats from "./ROUTING/MAIN SIDEBAR ROUTING/Tenants";
+import Leases from "./ROUTING/MAIN SIDEBAR ROUTING/Leases";
+import Units from "./ROUTING/MAIN SIDEBAR ROUTING/Units";
+import Reports from "./ROUTING/MAIN SIDEBAR ROUTING/Reports";
+import LeaseBalancePage from "./ROUTING/SIDEBAR ROUTING/LeaseBalancePage";
+import Settings from "./ROUTING/MAIN SIDEBAR ROUTING/Settings";
+import TaskPage from "./ROUTING/SIDEBAR ROUTING/TaskPage";
+import AllTasks from "./ROUTING/MAIN SIDEBAR ROUTING/AllTasks";
+import ChartofAccounting from "./ROUTING/MAIN SIDEBAR ROUTING/ChartOfAccounting";
+import ActiveLeases from "./ROUTING/MAIN SIDEBAR ROUTING/ActiveLeases";
+import Rent from "./ROUTING/MAIN SIDEBAR ROUTING/Rent";
+import Property2 from "./ROUTING/MAIN SIDEBAR ROUTING/Property2";
 
 function App() {
   return (

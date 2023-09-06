@@ -1,5 +1,5 @@
 import React from "react";
-import css from "../../styles/Accounting.module.css";
+import css from "../../Main Styles/styles/Accounting.module.css";
 import { NavLink } from "react-router-dom";
 import WestIcon from "@mui/icons-material/West";
 import MonetizationOnIcon from "@mui/icons-material/MonetizationOn";

@@ -1,5 +1,5 @@
 import React from "react";
-import css from "../../styles/Sidebar.module.css";
+import css from "../../Main Styles/styles/Sidebar.module.css";
 import SupervisorAccountIcon from "@mui/icons-material/SupervisorAccount";
 import ArrowRightAltIcon from "@mui/icons-material/ArrowRightAlt";
 import SettingsIcon from "@mui/icons-material/Settings";

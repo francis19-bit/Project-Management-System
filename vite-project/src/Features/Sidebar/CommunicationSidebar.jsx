@@ -1,5 +1,5 @@
 import React from "react";
-import css from "../../styles/communication.module.css";
+import css from "../../Main Styles/styles/communication.module.css";
 import ApartmentIcon from "@mui/icons-material/Apartment";
 import { NavLink } from "react-router-dom";
 import WestIcon from "@mui/icons-material/West";
