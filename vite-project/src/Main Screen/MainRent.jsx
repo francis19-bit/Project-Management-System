@@ -1,14 +1,11 @@
 import React from "react";
 import MainCss from "../Main Styles/MainRent.module.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-// import FloatingActionButtons from "../Material UI/floatingButton";
 import FloatingActionButtonExtendedSize from "../Material UI/FloatBtn";
 import SearchIcon from "@mui/icons-material/Search";
-// import BasicStack from "../Material UI/Basics";
 import VariantAvatars from "../Material UI/Variant";
 import RentTables from "../Material UI/RentTable";
 import { NavLink } from "react-router-dom";
-// import SimpleContainer from "../Material UI/Fluid";
 
 function MainRent() {
   return (
@@ -110,13 +107,9 @@ function MainRent() {
               </ul>
             </div>
           </div>
-          <div className={MainCss["Properties-DividerIII"]}>
-            {/*Tune drawer*/}
-          </div>
         </div>
         <div className={MainCss["Cards-Grid"]}>
           <div>
-            {/* <BasicStack /> */}
             <RentTables />
           </div>
         </div>

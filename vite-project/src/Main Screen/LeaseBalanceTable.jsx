@@ -1,9 +1,7 @@
 import React from "react";
 import leaseBalance from "../Lease Balance Page/LeaseBalance.module.css";
-import FloatingActionButtonExtendedSize from "../Material UI/FloatBtn";
 import LeaseBalanceBtn from "../Material UI/LeaseBalanceBtn";
 import BadgeAvatars from "../Material UI/Profile";
-import FolderIcon from "@mui/icons-material/Folder";
 
 function LeaseBalanceTable() {
   return (
@@ -33,9 +31,6 @@ function LeaseBalanceTable() {
                 Lease Status <p className={leaseBalance["color"]}>-$1,800.00</p>{" "}
               </div>
             </div>
-            <div className={leaseBalance["card__dateI"]}>
-              {/* <LeaseBalanceBtn /> */}
-            </div>
             <div className={leaseBalance["card__arrowI"]}> Enjoy</div>
           </div>
         </div>
@@ -51,9 +46,7 @@ function LeaseBalanceTable() {
                 <p className={leaseBalance["color"]}>-$1,800.00</p>{" "}
               </div>
             </div>
-            <div className={leaseBalance["card__dateII"]}>
-              {/* <LeaseBalanceBtn /> */}
-            </div>
+            <div className={leaseBalance["card__dateII"]}></div>
             <div className={leaseBalance["card__arrowII"]}> Enjoy</div>
           </div>
         </div>
@@ -62,10 +55,7 @@ function LeaseBalanceTable() {
       <div className={leaseBalance["column"]}>
         <div>
           <div className={leaseBalance["cardIII"]}>
-            <div className={leaseBalance["card__titleIII"]}>
-              {" "}
-              {/* <BadgeAvatars /> */}
-            </div>
+            <div className={leaseBalance["card__titleIII"]}> </div>
             <div className={leaseBalance["card__contentIII"]}>
               <div className={leaseBalance["card__"]}>
                 <div>

@@ -1,6 +1,5 @@
 import React from "react";
 import MainCss from "../Main Styles/RentLes.module.css";
-
 import { NavLink } from "react-router-dom";
 import RentLesTable from "../Material UI/RentLesTable";
 import RentTableBtn from "../Material UI/RentTableBtn";
@@ -32,13 +31,9 @@ function MainRentLease() {
                   <NavLink to={"/rent"}>
                     <li>Rent</li>
                   </NavLink>
-                  {/* <NavLink to={"/rentalapplication"}> */}
                   <li>Deposits</li>
-                  {/* </NavLink> */}
                   <li>Signature Requests</li>
-                  {/* <NavLink to={"/tasks"}> */}
                   <li>Tasks</li>
-                  {/* </NavLink> */}
                   <li>Notes</li>
                   <li>Files</li>
                   <li>Settings</li>
@@ -72,7 +67,6 @@ function MainRentLease() {
             <div className={MainCss["Properties-Divid-I"]}>
               <div className={MainCss["Headen"]}>
                 <div>Task</div>
-                <div> {/* <BasicTextFields />{" "} */}</div>
               </div>
             </div>
             <div className={MainCss["Properties-Divid-II"]}>dcs</div>

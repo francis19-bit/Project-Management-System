@@ -1,11 +1,8 @@
 import React from "react";
 import MainCss from "../Main Styles/MainProperties.module.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-// import FloatingActionButtons from "../Material UI/floatingButton";
 import FloatingActionButtonExtendedSize from "../Material UI/FloatBtn";
-import SearchIcon from "@mui/icons-material/Search";
 import Avatar from "@mui/material/Avatar";
-import VariantAvatars from "../Material UI/Variant";
 import FloatingBtn from "../Material UI/PropIndustry";
 import { NavLink } from "react-router-dom";
 
@@ -124,8 +121,6 @@ function MainProperties() {
                         <div className={MainCss["avata"]}>
                           <Avatar>ck</Avatar>
                         </div>
-
-                        {/* <div className={MainCss["titleI"]}>Industral</div> */}
                       </div>
 
                       <div className={MainCss["descI"]}>
@@ -146,8 +141,6 @@ function MainProperties() {
                         <div className={MainCss["avata"]}>
                           <Avatar>ck</Avatar>
                         </div>
-
-                        {/* <div className={MainCss["titleI"]}>Industral</div> */}
                       </div>
 
                       <div className={MainCss["descI"]}>

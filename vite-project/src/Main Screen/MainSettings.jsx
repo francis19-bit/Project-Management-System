@@ -102,14 +102,10 @@ function MainSettings() {
                 </li>
 
                 <li>
-                  {/* <FloatingActionButtonExtendedSize /> */}
                   <FloatingAction />
                 </li>
               </ul>
             </div>
-          </div>
-          <div className={MainCss["Properties-DividerIII"]}>
-            {/*Tune drawer*/}
           </div>
         </div>
         <div className={MainCss["Cards-Grid"]}>

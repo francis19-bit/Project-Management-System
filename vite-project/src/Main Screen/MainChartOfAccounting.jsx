@@ -1,20 +1,10 @@
 import React from "react";
 import MainCss from "../Main Styles/ChartofAcc.module.css";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
-// import FloatingActionButtons from "../Material UI/floatingButton";
-import FloatingActionButtonExtendedSize from "../Material UI/FloatBtn";
-import SearchIcon from "@mui/icons-material/Search";
-// import BasicStack from "../Material UI/Basics";
-import VariantAvatars from "../Material UI/Variant";
-// import RentTables from "../Material UI/RentTable";
-// import { NavLink } from "react-router-dom";
-import FloatingAction from "../Material UI/TaskBtn";
 import ChartofAccTable from "../Material UI/ChartOfAccTable";
 import PrivacyTipOutlinedIcon from "@mui/icons-material/PrivacyTipOutlined";
 import PlayCircleFilledWhiteOutlinedIcon from "@mui/icons-material/PlayCircleFilledWhiteOutlined";
 import TuneOutlinedIcon from "@mui/icons-material/TuneOutlined";
 import ChartofAccModal from "../Modal/ChartofAccModal";
-// import SimpleContainer from "../Material UI/Fluid";
 
 function MainChartofAccounting() {
   return (

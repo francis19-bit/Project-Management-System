@@ -40,27 +40,7 @@
   grid-template-areas: "per" "cent";
   width: 100%;
 } /* =====================End of properties-Grid======== */
-/* .Properties-DividerI {
-  grid-area: per;
-  background: aqua;
-}
-.Properties-DividerII {
-  grid-area: cent;
-  background: brown;
-}
-.Properties-DividerIII {
-  grid-area: age;
-  background: black;
-  visibility: hidden;
-  display: grid;
-  grid-template-rows: 100%;
-  width: 100%;
-  grid-template-areas: "per";
-} */
-/* .Properties-Divid-I {
-  grid-area: cent;
-  background: yellow;
-} */
+
 .Properties-Divid-II {
   grid-area: per;
   background: red;
@@ -91,7 +71,6 @@
   margin-top: 3%;
   font-size: 20px;
   position: relative;
-  /* background: #888; */
   /* ============= */
 }
 .Properties-list li {
@@ -134,7 +113,6 @@
   border: none;
   color: #fff;
   cursor: pointer;
-  /* padding: 10px 20px; */
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   position: absolute;

@@ -1,6 +1,5 @@
 import React from "react";
 import MainCss from "../Main Styles/MainLeaseBalance.module.css";
-import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SimplePaper from "../Material UI/CustomCardsII";
 
 function MainLeaseBalance() {
@@ -29,13 +28,13 @@ function MainLeaseBalance() {
                   <li>Tenants</li>
                   <li>Transactions</li>
                   <li>Rent</li>
-                  {/* <NavLink to={"/rentalapplication"}> */}
+
                   <li>Deposits</li>
-                  {/* </NavLink> */}
+
                   <li>Signature Requests</li>
-                  {/* <NavLink to={"/tasks"}> */}
+
                   <li>Tasks</li>
-                  {/* </NavLink> */}
+
                   <li>Notes</li>
                   <li>Files</li>
                   <li>Settings</li>
@@ -44,31 +43,14 @@ function MainLeaseBalance() {
             </div>
           </div>
           {/* ========================================================== */}
-          <div className={MainCss["Properties-DividerII"]}>
-            <div className={MainCss["Properties-Search"]}>
-              {/* =========================================================== */}
-              <div>
-                {/* <input
-                  type="text"
-                  name="text"
-                  placeholder="search"
-                  className={MainCss["inputI"]}
-                /> */}
-              </div>
-              <div>{/* <VariantAvatars /> */}</div>
-              <div>{/* <FloatingAction /> */}</div>
-              {/* =============================================================== */}
-            </div>
-          </div>
+
           {/* ========================================================== */}
           <div className={MainCss["Properties-DividerIII"]}>
             <div className={MainCss["Properties-Divid-I"]}>
               <div className={MainCss["Headen"]}>
                 <div>Task</div>
-                <div> {/* <BasicTextFields />{" "} */}</div>
               </div>
             </div>
-            <div className={MainCss["Properties-Divid-II"]}>dcs</div>
           </div>
         </div>
         <div className={MainCss["Cards-Grid"]}>

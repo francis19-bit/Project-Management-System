@@ -1,17 +1,11 @@
 import React from "react";
 import MainCss from "../Main Styles/MainRentApp.module.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
-// import FloatingActionButtons from "../Material UI/floatingButton";
-import FloatingActionButtonExtendedSize from "../Material UI/FloatBtn";
 import SearchIcon from "@mui/icons-material/Search";
-// import BasicStack from "../Material UI/Basics";
 import VariantAvatars from "../Material UI/Variant";
-import RentTables from "../Material UI/RentTable";
 import { NavLink } from "react-router-dom";
-import RentApp from "../Material UI/RentApp";
 import FloatingAction from "../Material UI/TaskBtn";
 import Tenants from "../Material UI/Tenants";
-// import SimpleContainer from "../Material UI/Fluid";
 
 function MainTenants() {
   return (
@@ -106,17 +100,13 @@ function MainTenants() {
                 <li>
                   <VariantAvatars />
                 </li>
-
                 <li>
-                  {/* <FloatingActionButtonExtendedSize /> */}
                   <FloatingAction />
                 </li>
               </ul>
             </div>
           </div>
-          <div className={MainCss["Properties-DividerIII"]}>
-            {/*Tune drawer*/}
-          </div>
+          <div className={MainCss["Properties-DividerIII"]}></div>
         </div>
         <div className={MainCss["Cards-Grid"]}>
           <div>

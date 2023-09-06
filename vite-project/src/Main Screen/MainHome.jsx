@@ -1,6 +1,5 @@
 import React from "react";
 import MainCss from "../Main Styles/MainHome.module.css";
-import TuneIcon from "@mui/icons-material/Tune";
 import SelectSmall from "../Material UI/Dropdown";
 import BoxSx from "../Material UI/BoxTanent";
 import BoxPay from "../Material UI/BoxPay";
@@ -12,9 +11,7 @@ function MainHome() {
     <>
       <div className={MainCss["Main-Grid"]}>
         {/* ================**Search Bar**================ */}
-        <div className={MainCss["Search-Grid"]}>
-          {/* <ResponsiveAppBar /> */}
-        </div>
+        <div className={MainCss["Search-Grid"]}></div>
         {/* ================*End of **Search Bar**================ */}
         <div className={MainCss["Welcome-Grid"]}>
           <div className="welcome">
@@ -45,10 +42,8 @@ function MainHome() {
                 </li>
                 <li className={MainCss["customize"]}>
                   <button className={MainCss["customize-Btn"]}>
-                    <li>{/* <TuneIcon style={{ width: "15px" }} /> */}</li>
                     <li>
-                      {/* Customize Dashboard */}
-                      <TemporaryDrawer /> {/*This is list Drawer live*/}
+                      <TemporaryDrawer />
                     </li>
                   </button>
                 </li>
