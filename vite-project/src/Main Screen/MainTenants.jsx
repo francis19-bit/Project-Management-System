@@ -10,9 +10,10 @@ import RentTables from "../Material UI/RentTable";
 import { NavLink } from "react-router-dom";
 import RentApp from "../Material UI/RentApp";
 import FloatingAction from "../Material UI/TaskBtn";
+import Tenants from "../Material UI/Tenants";
 // import SimpleContainer from "../Material UI/Fluid";
 
-function MainRentApp() {
+function MainTenants() {
   return (
     <>
       <div className={MainCss["Main-Grid"]}>
@@ -85,10 +86,10 @@ function MainRentApp() {
                   <ul className={MainCss["Properties-input-ul"]}>
                     <li>
                       <input
-                        placeholder="search"
-                        name="text"
                         type="text"
-                        className={MainCss["input"]}
+                        name="text"
+                        placeholder="search"
+                        className={MainCss["inputI"]}
                       />
                     </li>
                     <li>
@@ -119,7 +120,7 @@ function MainRentApp() {
         </div>
         <div className={MainCss["Cards-Grid"]}>
           <div>
-            <RentApp />
+            <Tenants />
           </div>
         </div>
       </div>
@@ -127,4 +128,4 @@ function MainRentApp() {
   );
 }
 
-export default MainRentApp;
+export default MainTenants;

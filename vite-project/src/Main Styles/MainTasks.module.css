@@ -18,7 +18,7 @@
 .Main-Grid {
   /* =============**Main-Grid**==================== */
   display: grid;
-  grid-template-rows: 10% 40% 50%;
+  grid-template-rows: 10% 20% 70%;
   grid-template-areas: "per" "cent" "age";
   width: 100%;
   height: 100vh;
@@ -36,8 +36,8 @@
   grid-area: cent;
   background: yellow;
   display: grid;
-  grid-template-rows: 30% 20% 60%;
-  grid-template-areas: "per" "cent" "age";
+  grid-template-rows: 60% 40%;
+  grid-template-areas: "per" "cent";
   width: 100%;
 } /* =====================End of properties-Grid======== */
 .Properties-DividerI {
@@ -52,19 +52,19 @@
   grid-area: age;
   background: black;
   /* visibility: hidden;  */
-  display: grid;
+  /* display: grid;
   grid-template-rows: 100%;
   width: 100%;
-  grid-template-areas: "per";
+  grid-template-areas: "per"; */
 }
 /* .Properties-Divid-I {
   grid-area: cent;
   background: yellow;
 } */
-.Properties-Divid-II {
+/* .Properties-Divid-II {
   grid-area: per;
   background: red;
-}
+} */
 .Cards-Grid {
   /* =============**Welcom-Grid**==================== */
 
@@ -159,7 +159,6 @@
   border-radius: 10px;
 }
 .input {
-  /* color: #8707ff; */
   border: 2px solid rgb(165, 127, 127);
   border-radius: 10px;
   padding: 10px 25px;

@@ -10,10 +10,9 @@ import RentTables from "../Material UI/RentTable";
 import { NavLink } from "react-router-dom";
 import RentApp from "../Material UI/RentApp";
 import FloatingAction from "../Material UI/TaskBtn";
-import Tenants from "../Material UI/Tenants";
 // import SimpleContainer from "../Material UI/Fluid";
 
-function MainTenants() {
+function MainRentApp() {
   return (
     <>
       <div className={MainCss["Main-Grid"]}>
@@ -86,19 +85,10 @@ function MainTenants() {
                   <ul className={MainCss["Properties-input-ul"]}>
                     <li>
                       <input
-                        placeholder="search"
-                        name="text"
                         type="text"
-                        className={MainCss["input"]}
-                      />
-                    </li>
-                    <li>
-                      <SearchIcon
-                        style={{
-                          color: "#fff",
-                          marginLeft: "-100%",
-                          marginTop: "9px",
-                        }}
+                        name="text"
+                        placeholder="search"
+                        className={MainCss["inputI"]}
                       />
                     </li>
                   </ul>
@@ -108,19 +98,15 @@ function MainTenants() {
                 </li>
 
                 <li>
-                  {/* <FloatingActionButtonExtendedSize /> */}
                   <FloatingAction />
                 </li>
               </ul>
             </div>
           </div>
-          <div className={MainCss["Properties-DividerIII"]}>
-            {/*Tune drawer*/}
-          </div>
         </div>
         <div className={MainCss["Cards-Grid"]}>
           <div>
-            <Tenants />
+            <RentApp />
           </div>
         </div>
       </div>
@@ -128,4 +114,4 @@ function MainTenants() {
   );
 }
 
-export default MainTenants;
+export default MainRentApp;

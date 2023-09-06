@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import RentalSidebar from "../../Features/Sidebar/RentalSidebar";
-import MainRentApp from "../../Display Screen/MainRentApp";
+import MainRentApp from "../../Main Screen/MainRentApp";
 
 const RentalApplication = () => {
   return (

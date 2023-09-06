@@ -41,7 +41,7 @@ export default function ChartofAccModal() {
         slots={{ backdrop: Backdrop }}
         slotProps={{
           backdrop: {
-            timeout: 500,
+            timeout: 1,
           },
         }}
       >

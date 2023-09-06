@@ -48,10 +48,15 @@
   grid-area: cent;
   background: brown;
 }
-/* .Properties-DividerIII {
-  grid-area: age;
-  background: black;
-} */
+.inputI {
+  width: 100%;
+  border: 2px solid rgb(165, 127, 127);
+  height: 5vh;
+  border-radius: 10px;
+}
+.input::placeholder {
+  color: #fff;
+}
 .Cards-Grid {
   /* =============**Welcom-Grid**==================== */
 

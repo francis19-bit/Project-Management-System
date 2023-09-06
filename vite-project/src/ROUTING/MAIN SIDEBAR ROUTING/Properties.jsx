@@ -2,7 +2,7 @@ import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import RentalSidebar from "../../Features/Sidebar/RentalSidebar";
 
-import MainProperties from "../../Display Screen/MainProperties";
+import MainProperties from "../../Main Screen/MainProperties";
 
 const Properties = () => {
   return (

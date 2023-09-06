@@ -1,17 +1,13 @@
 import React from "react";
-import MainCss from "../Main Styles/MainTasks.module.css";
+import MainCss from "../Main Styles/MainSettings.module.css";
 import MoreVertIcon from "@mui/icons-material/MoreVert";
 import SearchIcon from "@mui/icons-material/Search";
-// import BasicStack from "../Material UI/Basics";
 import VariantAvatars from "../Material UI/Variant";
-import FloatingAction from "../Material UI/TaskBtn";
-// import BasicTables from "../Material UI/BasicTable";
 import { NavLink } from "react-router-dom";
-import RentTable from "../Material UI/RentTable";
-// import CustomizedTables from "../Material UI/Table";
-// import Table from "../Material UI/Table";
+import FloatingAction from "../Material UI/TaskBtn";
+import SettingsPaper from "../Material UI/SettingsPaper";
 
-function MainTasks() {
+function MainSettings() {
   return (
     <>
       <div className={MainCss["Main-Grid"]}>
@@ -27,11 +23,12 @@ function MainTasks() {
                     <li>
                       <ul className={MainCss["Properties-Tessa"]}>
                         <li>
-                          <small>Tasks</small>
+                          <small>Properties</small>
                         </li>
-
                         <li>
-                          <b className={MainCss["Properties-Head"]}>My Task</b>
+                          <b className={MainCss["Properties-Head"]}>
+                            Tessa Lane
+                          </b>
                         </li>
                       </ul>
                     </li>
@@ -46,10 +43,20 @@ function MainTasks() {
                   <NavLink to={"/leasebalance"}>
                     <li>Overview</li>
                   </NavLink>
-                  <li>Reports</li>
-                  <li>Units</li>
-                  <li>Leases</li>
-                  <li>Tenants</li>
+                  <NavLink to={"/reports"}>
+                    <li>Reports</li>
+                  </NavLink>
+                  <NavLink to={"/units"}>
+                    <li>Units</li>
+                  </NavLink>
+                  <NavLink to={"/leases"}>
+                    {" "}
+                    <li>Leases</li>
+                  </NavLink>
+                  <NavLink to={"/tenants"}>
+                    {" "}
+                    <li>Tenants</li>
+                  </NavLink>
                   <NavLink to={"/rentalapplication"}>
                     <li>Rental Applications</li>
                   </NavLink>
@@ -66,41 +73,48 @@ function MainTasks() {
               </div>
             </div>
           </div>
-          {/* ========================================================== */}
           <div className={MainCss["Properties-DividerII"]}>
             <div className={MainCss["Properties-Search"]}>
-              {/* =========================================================== */}
-              <div>
-                <input
-                  type="text"
-                  name="text"
-                  placeholder="search"
-                  className={MainCss["inputI"]}
-                />
-              </div>
-              <div>
-                <VariantAvatars />
-              </div>
-              <div>
-                <FloatingAction />
-              </div>
-              {/* =============================================================== */}
+              <ul className={MainCss["Properties-Search-ul"]}>
+                <li>
+                  <ul className={MainCss["Properties-input-ul"]}>
+                    <li>
+                      <input
+                        type="text"
+                        name="text"
+                        placeholder="search"
+                        className={MainCss["inputI"]}
+                      />
+                    </li>
+                    <li>
+                      <SearchIcon
+                        style={{
+                          color: "#fff",
+                          marginLeft: "-100%",
+                          marginTop: "9px",
+                        }}
+                      />
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <VariantAvatars />
+                </li>
+
+                <li>
+                  {/* <FloatingActionButtonExtendedSize /> */}
+                  <FloatingAction />
+                </li>
+              </ul>
             </div>
           </div>
-          {/* ========================================================== */}
           <div className={MainCss["Properties-DividerIII"]}>
-            <div className={MainCss["Properties-Divid-I"]}>
-              <div className={MainCss["Headen"]}>
-                <div>Task</div>
-                <div> {/* <BasicTextFields />{" "} */}</div>
-              </div>
-            </div>
-            <div className={MainCss["Properties-Divid-II"]}>dcs</div>
+            {/*Tune drawer*/}
           </div>
         </div>
         <div className={MainCss["Cards-Grid"]}>
           <div>
-            <RentTable />
+            <SettingsPaper />
           </div>
         </div>
       </div>
@@ -108,4 +122,4 @@ function MainTasks() {
   );
 }
 
-export default MainTasks;
+export default MainSettings;

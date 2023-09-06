@@ -87,16 +87,18 @@ function MainChartofAccounting() {
             <div className={MainCss["Properties-Search"]}>
               <div className={MainCss["Input"]}>
                 <div>
-                  <input type="text" placeholder="search" name="text" />
+                  <input
+                    type="text"
+                    name="text"
+                    placeholder="search"
+                    className={MainCss["inputI"]}
+                  />
                 </div>
                 <div>
                   <TuneOutlinedIcon />
                 </div>
               </div>
             </div>
-          </div>
-          <div className={MainCss["Properties-DividerIII"]}>
-            {/*Tune drawer*/}
           </div>
         </div>
         <div className={MainCss["Cards-Grid"]}>

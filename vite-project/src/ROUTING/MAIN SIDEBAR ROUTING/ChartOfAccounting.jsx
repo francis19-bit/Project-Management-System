@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import AccountingSidebar from "../../Features/Sidebar/AccountingSidebar";
-import MainChartofAccounting from "../../Display Screen/MainChartOfAccounting";
+import MainChartofAccounting from "../../Main Screen/MainChartOfAccounting";
 
 function ChartofAccounting() {
   return (

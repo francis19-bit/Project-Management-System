@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import RentalSidebar from "../../Features/Sidebar/RentalSidebar";
-import MainSettings from "../../Display Screen/MainSettings";
+import MainSettings from "../../Main Screen/MainSettings";
 
 const Settings = () => {
   return (

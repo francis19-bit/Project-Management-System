@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import RentalSidebar from "../../Features/Sidebar/RentalSidebar";
-import MainTasks from "../../Display Screen/MainTasks";
+import MainTasks from "../../Main Screen/MainTasks";
 
 const Tasks = () => {
   return (

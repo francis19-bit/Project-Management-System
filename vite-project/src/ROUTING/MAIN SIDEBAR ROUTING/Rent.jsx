@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import LeasingSidebar from "../../Features/Sidebar/LeasingSidebar";
-import MainRentLease from "../../Display Screen/MainRentLease";
+import MainRentLease from "../../Main Screen/MainRentLease";
 
 function Rent() {
   return (

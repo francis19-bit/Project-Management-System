@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import RentalSidebar from "../../Features/Sidebar/RentalSidebar";
-import MainTenants from "../../Display Screen/MainTenants";
+import MainTenants from "../../Main Screen/MainTenants";
 
 const Tenats = () => {
   return (

@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import RentalSidebar from "../../Features/Sidebar/RentalSidebar";
-import MainReports from "../../Display Screen/MainReports";
+import MainReports from "../../Main Screen/MainReports";
 
 const Reports = () => {
   return (

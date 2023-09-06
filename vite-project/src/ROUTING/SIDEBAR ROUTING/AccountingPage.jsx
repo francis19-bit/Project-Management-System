@@ -1,7 +1,7 @@
 import React from "react";
 import css from "../../Main Styles/styles/home.module.css";
 import AccountingSidebar from "../../Features/Sidebar/AccountingSidebar";
-import MainHome from "../../Display Screen/MainHome";
+import MainHome from "../../Main Screen/MainHome";
 
 function AccountingPage() {
   return (
